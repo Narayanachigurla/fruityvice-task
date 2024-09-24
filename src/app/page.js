@@ -47,11 +47,11 @@ export default function Home() {
 
 
 
-<div className="flex flex-col-reverse md:flex-row-reverse w-full">
+<div className="flex flex-col-reverse md:flex-row w-full">
   <div className="w-full md:w-1/3 h-1/2 md:h-screen bg-cover bg-center relative" style={{ backgroundImage: 'url(/images/watermelon.png)' }}>
     <div className="absolute inset-0 bg-black opacity-50"></div>
   </div>
-  
+
   <div className="w-full md:w-2/3 p-8 flex items-center justify-center flex-col">
     <h1 className="text-6xl p-6 text-center">What functions does it provide?</h1>
     <p className="text-1xl text-center">
@@ -62,6 +62,7 @@ export default function Home() {
     </button>
   </div>
 </div>
+
 
 
 
