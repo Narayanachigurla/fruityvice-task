@@ -31,7 +31,7 @@ body {
   height: 100vh; /* Ensure the container takes the full height */
 }
 
-.w-1/2 {
+.w-1/\2 {
   width: 50%;
 }
 
